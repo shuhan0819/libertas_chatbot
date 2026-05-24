@@ -1,0 +1,50 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# Database
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+
+# Authentication & Security
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+
+# Settings & env
+python-dotenv==1.0.1
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Rate limiting
+slowapi==0.1.9
+
+# LLM & OpenAI-compatible API
+openai>=1.0.0
+
+# RAG - embedding & vector search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Danger detection - fuzzy matching
+thefuzz>=0.20.0
+python-Levenshtein>=0.21.0
+
+# Voice - STT & TTS
+openai-whisper>=20231117
+edge-tts>=6.1.9
+
+# Google Drive API
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.1
+
+# Document parsing
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+
+# Chinese text processing
+opencc-python-reimplemented>=0.1.7

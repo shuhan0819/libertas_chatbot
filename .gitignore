@@ -1,0 +1,45 @@
+# 環境變數與敏感資訊
+.env
+.env.save
+.env.*
+!.env.example
+credentials.json
+kb_state.json
+
+# Jupyter checkpoints（可能含敏感資訊副本）
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# 知識庫（體積大，不需要版控）
+knowledge_base/
+audio_files/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Node.js
+node_modules/
+libertas-frontend/node_modules/
+libertas-frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日誌
+*.log
