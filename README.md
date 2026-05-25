@@ -1,4 +1,10 @@
-# 利伯他茲社工支持聊天機器人（Libertas Chatbot）
+# 利伯他茲教育基金會聊天機器人
+### Full-Stack AI Chatbot with Crisis Detection for Libertas Foundation
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![React](https://img.shields.io/badge/React-19-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-async-green)
+![Supabase](https://img.shields.io/badge/DB-Supabase-green)
 
 為財團法人利伯他茲教育基金會開發的 AI 社工支持系統，服務藥癮康復、更生等高風險族群，提供 24 小時陪伴支持、資訊查詢與危機偵測功能。
 
